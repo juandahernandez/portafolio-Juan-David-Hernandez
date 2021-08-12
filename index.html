@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Juan Hernandez</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/grid.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body id="body">
+
+  <!--inicio navegacion y logo-->
+
+
+  <header id="nav" class="header-desktop" style="display:none">
+    <nav class="container flex justify-between">
+      <div class="logo justify-center align-center">
+        <a href="#"><img src="assets/img/logo4.png" alt="logo" class="logo-j"></a>
+      </div>
+
+      <ul class="flex justify-between align-center ">
+        <li class="col-2"><a href="#">Acerca</a></li>
+        <li class="col-2"><a href="#">Proyectos</a></li>
+        <li class="col-2"><a href="#">Servicios</a></li>
+        <li class="col-2"><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <header id="nav2" class="header-mobile">
+
+    <nav class="container flex justify-between">
+      <div class="logo justify-center align-center">
+        <a href="#"><img src="assets/img/logo4.png" alt="logo" class="logo-j"></a>
+      </div>
+
+      <i id="btn-menu" class="fas fa-bars" onclick="toogleMenu()"></i>
+
+
+
+      <ul id="menu" class="flex justify-between align-center ">
+        <li id="a" onclick="btnA()"><a href="#about">Acerca</a></li>
+        <li id="a" onclick="btnA()"><a href="#PROYECTOS">Proyectos</a></li>
+        <li id="a" onclick="btnA()"><a href="#SERVICIOS">Servicios</a></li>
+        <li id="a" onclick="btnA()"><a href="#CONTACTO">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!--inicio titulo h1 -->
+
+
+  <section class="seccion flex justify-center">
+    <div class=" mi_titulo ">
+      <h2>Juan Hernandez</h2>
+      <h1>Desarrollador web</h1>
+      <a href="#">Mi trabajo</a>
+    </div>
+  </section>
+
+  <!--inicio seccion acerca de-->
+
+  <a name="about" id="about"></a>
+
+  <div class="about">
+    <section class="secon_seccion container flex ">
+      <div class=" contenido col-6">
+        <h3>ACERCA DE</h3>
+        <p>Mi nombre es Juan David Hernandez tengo 29
+          años soy de Colombia, soy desarrollador web
+          desde el año 2021, tengo poca experiencia
+          manejo HTML, csss y javascrip.
+          En un año sere un desarrollador web full stack.
+          Me gusta leer, investigar, viajar, conocer lugares
+          nuevos, compartir tiempo con mi familia y amigos,
+          jugar videojuegos.
+        </p>
+
+        <div class="boton-container">
+          <button class="boton">
+            <span id="span1"></span>
+            <span id="span2"></span>
+            <span id="span3"></span>
+            <span id="span4"></span>
+            Mis Proyectos
+          </button>
+        </div>
+      </div>
+
+      <div class="img-about col-6">
+        <img src="assets/img/image.jpg" alt="">
+      </div>
+    </section>
+
+  </div>
+
+  <!--inicio proyectos cajas con hover-->
+
+
+  <a name="PROYECTOS" id="PROYECTOS"></a>
+
+  <div>
+    <h3 class="misproye">PROYECTOS</h3>
+  </div>
+
+  <div class="cajas container ">
+
+    <figure class="col-5">
+      <img src="assets/img/ensayo.jpg" alt="">
+      <div class="capa_1">
+        <h3>Juan Hernandez</h3>
+        <P>Desarrollador Web</P>
+      </div>
+    </figure>
+
+    <figure class="col-5">
+      <img src="assets/img/ensayo2.jpg" alt="">
+      <div class="capa_1">
+        <h3>Juan Hernandez</h3>
+        <P>Desarrollador Web</P>
+      </div>
+    </figure>
+
+
+
+    <figure class="col-5">
+      <img src="assets/img/ensayo3.jpg" alt="">
+      <div class="capa_1">
+        <h3>Juan Hernandez</h3>
+        <P>Desarrollador Web</P>
+      </div>
+    </figure>
+
+
+
+    <figure class="col-5">
+      <img src="assets/img/ensayo4.jpg" alt="">
+      <div class="capa_1">
+        <h3>Juan Hernandez</h3>
+        <P>Desarrollador Web</P>
+      </div>
+    </figure>
+
+  </div>
+
+  <!--inicio seccion img horizontal-->
+
+  <div class="container">
+    <section class="horizontal">
+      <div class="horizontal_conte container flex justify-center align-center">
+        <h3>Desarrollador web</h3>
+      </div>
+    </section>
+  </div>
+
+  <!--inicio seccion servicios-->
+
+  <a name="SERVICIOS" id="SERVICIOS"></a>
+
+  <div>
+    <h3 class="MiServiceTitulo">SERVICIOS</h3>
+  </div>
+
+
+  <div class="services flex align-center">
+    <section class="servi container flex">
+      <div class="f1 cuadros">
+        <img src="assets/img/diseño.png" alt="Diseño">
+        <h3>Diseño web</h3>
+        <p>diseñamos todo lo que piensas</p>
+      </div>
+
+      <div class="f1 cuadros">
+        <img src="assets/img/desarrollo.png" alt="Desarrollo">
+        <h3>Desarrollo</h3>
+        <p>desarrollamos todas tus ideas</p>
+      </div>
+
+      <div class="cuadros">
+        <img src="assets/img/marketing.png" alt="Marketing">
+        <h3>Marketing</h3>
+        <p>se competente en el mundo digital</p>
+      </div>
+
+      <div class="cuadros">
+        <img src="assets/img/marca.png" alt="Marca">
+        <h3>Marca</h3>
+        <p>posecionamos tu marca a nivel mundial</p>
+      </div>
+
+    </section>
+  </div>
+
+  <!--inicio boton mas servicios-->
+
+  <div class="btn-container">
+    <div class="inf flex justify-center align-center">
+      <a href="#" class="boton">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        Mas inf de Servicios</a>
+    </div>
+  </div>
+
+
+  <!--inicio seccion formulario-->
+
+  <a name="CONTACTO" id="CONTACTO"></a>
+
+  <div class="contain-form">
+    <h3 class="form-titulo">CONTACTO</h3>
+
+    <section class="form col-8 container flex align-center justify-center">
+      <input class="campos" type="text" name="nombres " id="nombres" placeholder="Nombres">
+      <input class="campos" type="text" name="Apellidos" id="Apellidos" placeholder="Apellidos">
+      <input class="campos" type="email" name="correo" id="correo" placeholder="Email">
+      <textarea class="text-area" name="Mensaje" id="Mensaje" placeholder="Mensaje"></textarea>
+      <input class="campoBoton" type="submit" value="Enviar mensaje">
+
+    </section>
+
+    <div class="datos-conta flex container">
+
+      <div class="datos">
+        <img src="assets/img/telefono.png" alt="phone">
+        <h4>Telefono</h4>
+        <p>+573183989073</p>
+      </div>
+
+
+      <div class="datos">
+        <img src="assets/img/email.png" alt="email">
+        <h4>Email</h4>
+        <p>Juan@gmail.com</p>
+      </div>
+
+
+      <div class="datos">
+        <img src="assets/img/direccion.png" alt="adres">
+        <h4>Direccion</h4>
+        <p>Colombia-Pereira</p>
+      </div>
+    </div>
+  </div>
+
+  <!--inicio seccion soccial botons-->
+
+  <div>
+    <div class="social-container">
+      <div class="social-btns">
+        <a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+        <a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
+        <a class="btn instagram" href="#"><i class="fa fa-instagram"></i></a>
+        <a class="btn youtube" href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+    </div>
+
+  </div>
+  <footer class="footer-copy">
+    ©Copy Rigth todos los derechos reservados
+  </footer>
+
+
+  <script src="./scripts/app.js"></script>
+  <script src="https://kit.fontawesome.com/997680b47d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

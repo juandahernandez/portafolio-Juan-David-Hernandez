@@ -1,0 +1,40 @@
+*, 
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;  
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Open Sans', sans-serif
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    
+}
+
+@media (max-width:320px){
+    .conatainer{
+        width: 95%;
+        margin: auto;
+    }
+}
+
+
+
